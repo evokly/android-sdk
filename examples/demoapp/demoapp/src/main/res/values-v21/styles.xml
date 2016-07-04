@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme.Widget.AppCompat.Button.Dark" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/evoklyBackground</item>
+    </style>
+
+</resources>

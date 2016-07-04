@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/evoklyAccent</color>
+
+    <!-- Basic colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Evokly colors -->
+    <color name="evokly_accent">#FD6751</color>
+    <color name="evokly_background">#1E2340</color>
+    <color name="evokly_hint">#848484</color>
+</resources>
