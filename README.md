@@ -4,12 +4,22 @@
 *Beacons Proximity Marketing Platform*
 
 ##Public API Key
-Evokly Public API Key is required. Get one from [https://evok.ly](https://evok.ly)
+Evokly Public API Key is required. Get one from [Evokly](https://evok.ly)
 
+##Installation
 
-##Getting started
+###Gradle via Maven Central / JCenter
+Evokly SDK is available on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.evokly%22) and [JCenter](https://jcenter.bintray.com/com/evokly/sdk/). Declare in your Gradle's `build.gradle` dependency to this library.
 
-Copy `evokly-framework.aar` to your Android Studio project `libs` folder.
+```gradle
+dependencies {
+	compile 'com.evokly:sdk:1.0.3'
+}
+```
+
+###Manual installation
+
+Copy `evokly-framework.aar` to your application `libs` folder.
 
 In your `build.gradle`:
 
@@ -25,6 +35,7 @@ dependencies {
 }
 ```
 
+##Getting started
 In your `AndroidManifest.xml`:
 
 ```xml
