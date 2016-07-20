@@ -19,7 +19,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -83,13 +82,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[],
                                            @NonNull int[] grantResults) {
         switch (requestCode) {
@@ -107,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initializeEvokly() {
         ServiceSettings serviceSettings = new ServiceSettings();
-        serviceSettings.enableAnalytics = false;
         serviceSettings.enableConfigAutoUpdate = false;
         serviceSettings.enableStartOnBoot = false;
         serviceSettings.enableWorkInBackground = false;
