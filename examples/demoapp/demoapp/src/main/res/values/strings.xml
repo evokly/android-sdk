@@ -1,8 +1,5 @@
 <resources>
-    <string name="app_name">Evokly Demo</string>
+    <string name="app_name">evokly</string>
     <string name="permission_failure">Permission not granted. Beacon scanning wont work</string>
     <string name="debug_button">Show debug</string>
-
-    <string name="evokly_subdomain">example</string>
-    <string name="evokly_apikey">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjU3NjdlYzI5NWJlNDBiMTIwMGI2MTc2NSIsInByb2plY3QiOiI1NzY3ZWI4ZDViNzcyMjEzMDA5ZGRkMWMiLCJpYXQiOjE0NjY0Mjg0NTd9.y70wPn5s9405Nx-k9joCRWvDt2zodTw0b_183SvYDoU</string>
 </resources>

@@ -22,8 +22,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.evokly.sdk.Evokly;
-import com.evokly.sdk.ServiceSettings;
+import com.evokly.sdk.*;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -102,8 +101,10 @@ public class MainActivity extends AppCompatActivity {
         serviceSettings.enableConfigAutoUpdate = false;
         serviceSettings.enableStartOnBoot = false;
         serviceSettings.enableWorkInBackground = false;
-        serviceSettings.subdomain = getString(R.string.evokly_subdomain);
-        serviceSettings.apiKey = getString(R.string.evokly_apikey);
+        serviceSettings.subdomain = BuildConfig.EVOKLY_SUBDOMAIN;
+        serviceSettings.apiKey = BuildConfig.EVOKLY_APIKEY;
+        serviceSettings.endpointsUrl = BuildConfig.EVOKLY_ENDPOINTS_URL;
+        serviceSettings.notificationIcon = R.drawable.ic_stat_evo_sygnet;
 
         Evokly.initialize(this, serviceSettings);
     }
